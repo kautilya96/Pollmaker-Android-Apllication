@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/ll"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewHead"
+            android:text="Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/cardview_dark_background"/>
+
+
+
+        <TextView
+            android:layout_below="@+id/responses"
+            android:layout_marginLeft="230dp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/edit"
+            android:id="@+id/edit"
+            />
+
+        <TextView
+           android:layout_below="@+id/responses"
+            android:layout_marginLeft="280dp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/delete"
+            android:id="@+id/delete"
+            />
+        <TextView
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/creation_date"
+            android:text="Created on "
+            android:layout_below="@+id/textViewHead"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/space"
+            android:layout_below="@+id/creation_date"
+            android:text="\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/op1"
+            android:layout_below="@+id/space"
+            android:text="A. "
+            android:textSize="20dp"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/op2"
+            android:layout_below="@+id/op1"
+            android:text="B. "
+            android:textSize="20dp"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/op3"
+            android:layout_below="@+id/op2"
+            android:text="C. "
+
+            android:textSize="20dp"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/op4"
+            android:layout_below="@+id/op3"
+            android:text="D. "
+            android:textSize="20dp"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/op4"
+            android:id="@+id/responses"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+

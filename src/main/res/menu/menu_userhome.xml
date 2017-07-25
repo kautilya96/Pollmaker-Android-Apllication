@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottombaritemone"
+        android:icon="@drawable/profile"
+        android:title="Home"
+        >
+    </item>
+    <item android:id="@+id/bottombaritemtwo"
+        android:icon="@drawable/index"
+        android:title="Create Poll"
+        >
+    </item>
+    <item android:id="@+id/bottombaritemthree"
+        android:icon="@drawable/vote"
+        android:title="Vote"
+        >
+    </item>
+    <item android:id="@+id/bottombaritemfour"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        />
+</menu>
